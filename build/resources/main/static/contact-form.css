@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(243, 243, 243);
+    margin: 2% 40%;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 0;
+}
+
+.input-form {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.for-save-button {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    background: #e7e7e7;
+    border: 1px solid #000;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover {
+    transform: scale(1.1);
+    background: #d1d1d1;
+    cursor: pointer;
+}
